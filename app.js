@@ -2,11 +2,11 @@
 const express = require('express');
 const logger = require('morgan');
 const dotenv = require('dotenv');
-
 //Importing routers!
 const routes = require('./routes');
 
 const app = express();
+dotenv.config();
 
 //Middlewares
 app.use(logger('dev')); //Muestra las llamadas por consola

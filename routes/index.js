@@ -4,6 +4,6 @@ const empleadorRouter = require('./empleador');
 const cadeteRouter = require('./cadete');
 
 router.use('/employer', empleadorRouter);
-router.use('/employer', cadeteRouter);
+router.use('/employee', cadeteRouter);
 
 module.exports = router;
